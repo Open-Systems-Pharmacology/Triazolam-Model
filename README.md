@@ -1,14 +1,15 @@
 # Triazolam-Model
 Whole-body PBPK model of triazolam.
 
+**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
+
 <p align="center">
   <img src="Triazolam.png">
 </p> 
 
 This triazolam model is intended to be used as victim drug in CYP3A4-mediated drug-drug interactions (DDI).
 
-This whole-body PBPK model of triazolam has been developed based on clinical data ontained from the literature for intravenous (IV) administration and oral (PO) administration of the immediate release tablet given in fasted state in healthy, non-obese adults. In total, 20 clinical studies were used for model development and evaluation. 
-Further information can be found in the report [here](../../blob/master/Evaluation_report_triazolam.pdf).
+This whole-body PBPK model of triazolam has been developed based on clinical data ontained from the literature for intravenous (IV) administration and oral (PO) administration of the immediate release tablet given in fasted state in healthy, non-obese adults. In total, 20 clinical studies were used for model development and evaluation. Further information can be found [here](../../releases/lates).
 
 ## Code of conduct
 
