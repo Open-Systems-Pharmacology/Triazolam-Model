@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Triazolam",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/master/Triazolam-Model.json",
+            "Path": "../../Triazolam-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": [
                 {
