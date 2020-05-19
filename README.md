@@ -1,10 +1,7 @@
 # Triazolam-Model
 Whole-body PBPK model of triazolam.
 
-<p align="center">
-  <img src="Triazolam.png">
-</p> 
-
+<a title="Triazolam" href="https://commons.wikimedia.org/wiki/File:Triazolam.svg"><img width="128" alt="Triazolam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Triazolam.svg/128px-Triazolam.svg.png"></a>
 
 
 This repository contains:
