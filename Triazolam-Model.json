@@ -1,5 +1,5 @@
 {
-  "Version": 76,
+  "Version": 77,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h)",
@@ -88,12 +88,22 @@
           },
           "Parameters": [
             {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
               "Name": "t1/2 (liver)",
               "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -203,6 +213,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -592,6 +619,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -634,6 +671,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -749,6 +803,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -779,6 +843,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -802,6 +876,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -979,10 +1063,7 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 2.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
+          "Value": 2.0
         },
         {
           "Name": "Molecular weight",
@@ -3508,7 +3589,6 @@
               "X": "Time",
               "Y": "PO_0.125mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
@@ -3575,7 +3655,6 @@
               "X": "Time",
               "Y": "PO_0.125mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
@@ -3973,12 +4052,11 @@
               "X": "Time",
               "Y": "PO_0.25mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - Plasma - agg. (n=8)-ArithmeticMean",
               "X": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
               "Y": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -3989,7 +4067,7 @@
               }
             },
             {
-              "Name": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996b - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4000,7 +4078,7 @@
               }
             },
             {
-              "Name": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996a - Triazolam + placebo - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4011,7 +4089,7 @@
               }
             },
             {
-              "Name": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1994 - Triazolam + placebo - Triazolam - Plasma - agg. (n=9)-ArithmeticMean",
               "X": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)|Time",
               "Y": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4022,7 +4100,7 @@
               }
             },
             {
-              "Name": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - Plasma - agg. (n=18)-ArithmeticMean",
               "X": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)|Time",
               "Y": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4033,7 +4111,7 @@
               }
             },
             {
-              "Name": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4044,7 +4122,7 @@
               }
             },
             {
-              "Name": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Kroboth 1995 - Oral administration - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4055,7 +4133,7 @@
               }
             },
             {
-              "Name": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4066,7 +4144,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2004 - Young females - Triazolam - Plasma - agg. (n=13)-ArithmeticMean",
               "X": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)|Time",
               "Y": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4077,7 +4155,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2004 - Young males - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4088,7 +4166,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2000 - Triazolam females - Triazolam - Plasma - agg. (n=8)-ArithmeticMean",
               "X": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
               "Y": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4099,7 +4177,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2000 - Triazolam males - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4110,7 +4188,7 @@
               }
             },
             {
-              "Name": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 1989 - Triazolam group - Triazolam - Plasma - agg. (n=11)-ArithmeticMean",
               "X": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)|Time",
               "Y": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4121,7 +4199,7 @@
               }
             },
             {
-              "Name": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - Plasma - agg. (n=26)-ArithmeticMean",
               "X": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)|Time",
               "Y": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4172,12 +4250,11 @@
               "X": "Time",
               "Y": "PO_0.25mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996c - Triazolam + placebo - Triazolam - Plasma - agg. (n=8)-ArithmeticMean",
               "X": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
               "Y": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4188,7 +4265,7 @@
               }
             },
             {
-              "Name": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996b - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4199,7 +4276,7 @@
               }
             },
             {
-              "Name": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1996a - Triazolam + placebo - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4210,7 +4287,7 @@
               }
             },
             {
-              "Name": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Varhe 1994 - Triazolam + placebo - Triazolam - Plasma - agg. (n=9)-ArithmeticMean",
               "X": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)|Time",
               "Y": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4221,7 +4298,7 @@
               }
             },
             {
-              "Name": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - Plasma - agg. (n=18)-ArithmeticMean",
               "X": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)|Time",
               "Y": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4232,7 +4309,7 @@
               }
             },
             {
-              "Name": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4243,7 +4320,7 @@
               }
             },
             {
-              "Name": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Kroboth 1995 - Oral administration - Triazolam - Plasma - agg. (n=12)-ArithmeticMean",
               "X": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|Time",
               "Y": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4254,7 +4331,7 @@
               }
             },
             {
-              "Name": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4265,7 +4342,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2004 - Young females - Triazolam - Plasma - agg. (n=13)-ArithmeticMean",
               "X": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)|Time",
               "Y": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4276,7 +4353,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2004 - Young males - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4287,7 +4364,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2000 - Triazolam females - Triazolam - Plasma - agg. (n=8)-ArithmeticMean",
               "X": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|Time",
               "Y": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4298,7 +4375,7 @@
               }
             },
             {
-              "Name": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 2000 - Triazolam males - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|Time",
               "Y": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4309,7 +4386,7 @@
               }
             },
             {
-              "Name": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 1989 - Triazolam group - Triazolam - Plasma - agg. (n=11)-ArithmeticMean",
               "X": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)|Time",
               "Y": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4320,7 +4397,7 @@
               }
             },
             {
-              "Name": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - Plasma - agg. (n=26)-ArithmeticMean",
               "X": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)|Time",
               "Y": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4697,12 +4774,11 @@
               "X": "Time",
               "Y": "PO_0.5mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Villikka 1998 - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4713,7 +4789,7 @@
               }
             },
             {
-              "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4724,7 +4800,7 @@
               }
             },
             {
-              "Name": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Phillips 1986 - Triazolam alone - Triazolam - Plasma - agg. (n=16)-ArithmeticMean",
               "X": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)|Time",
               "Y": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4735,7 +4811,7 @@
               }
             },
             {
-              "Name": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Ochs 1984 - Control - Triazolam - Plasma - agg. (n=5)-ArithmeticMean",
               "X": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)|Time",
               "Y": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4746,7 +4822,7 @@
               }
             },
             {
-              "Name": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Friedman 1988 - Control - Triazolam - Plasma - agg. (n=19)-ArithmeticMean",
               "X": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)|Time",
               "Y": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4757,7 +4833,7 @@
               }
             },
             {
-              "Name": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Friedman 1986 - Figure 1 - Triazolam - Plasma - agg. (n=54)-ArithmeticMean",
               "X": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)|Time",
               "Y": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4808,12 +4884,11 @@
               "X": "Time",
               "Y": "PO_0.5mg|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#000000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Villikka 1998 - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4824,7 +4899,7 @@
               }
             },
             {
-              "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Villikka 1997 - Triazolam + placebo - Triazolam - Plasma - agg. (n=10)-ArithmeticMean",
               "X": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4835,7 +4910,7 @@
               }
             },
             {
-              "Name": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Phillips 1986 - Triazolam alone - Triazolam - Plasma - agg. (n=16)-ArithmeticMean",
               "X": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)|Time",
               "Y": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4846,7 +4921,7 @@
               }
             },
             {
-              "Name": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Ochs 1984 - Control - Triazolam - Plasma - agg. (n=5)-ArithmeticMean",
               "X": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)|Time",
               "Y": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4857,7 +4932,7 @@
               }
             },
             {
-              "Name": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Friedman 1986 - Figure 1 - Triazolam - Plasma - agg. (n=54)-ArithmeticMean",
               "X": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)|Time",
               "Y": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
@@ -4868,7 +4943,7 @@
               }
             },
             {
-              "Name": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "Name": "Friedman 1988 - Control - Triazolam - Plasma - agg. (n=19)-ArithmeticMean",
               "X": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)|Time",
               "Y": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
