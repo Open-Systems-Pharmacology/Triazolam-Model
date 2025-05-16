@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Triazolam",
@@ -454,54 +454,57 @@
             {
                 "Project": "Triazolam",
                 "Simulation": "Kroboth1995_0.25mg_iv",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "Smith1987_0.125mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "Smith1987_0.25mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "Smith1987_0.5mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "Smith1987_0.75mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "Smith1987_1mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "PO_0.125mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "PO_0.25mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Triazolam",
                 "Simulation": "PO_0.5mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
                 "Title": "Goodness of fit plot for concentration in plasma",
-                "SectionId": 32,
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "SectionReference": "diagnostics-plots",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "IV",
@@ -559,154 +562,46 @@
                                 "Project": "Triazolam",
                                 "Simulation": "PO_0.125mg",
                                 "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 1991 - Young subjects, 0.125 mg - Triazolam - PO - 0.125 mg - Plasma - agg. (n=26)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.125mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Moltke 1996 - Triazolam + Placebo (Trial 2) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=9)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)",
+                                "ObservedData": [
+                                    "Greenblatt 1991 - Young subjects, 0.125 mg - Triazolam - PO - 0.125 mg - Plasma - agg. (n=26)",
+                                    "Moltke 1996 - Triazolam + Placebo (Trial 2) - Triazolam - PO - 0.125 mg - Plasma - agg. (n=9)"
+                                ],
                                 "Color": "#1f78b4"
                             },
                             {
                                 "Project": "Triazolam",
                                 "Simulation": "PO_0.25mg",
                                 "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.25mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+                                "ObservedData": [
+                                    "Greenblatt 1989 - Triazolam group - Triazolam - PO - 0.25 mg - Plasma - agg. (n=11)",
+                                    "Greenblatt 1991 - Young subjects, 0.25 mg - Triazolam - PO - 0.25 mg - Plasma - agg. (n=26)",
+                                    "Greenblatt 2000 - Triazolam males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+                                    "Greenblatt 2000 - Triazolam females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)",
+                                    "Greenblatt 2004 - Young males - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+                                    "Greenblatt 2004 - Young females - Triazolam - PO - 0.25 mg - Plasma - agg. (n=13)",
+                                    "Hukkinen 1995 - Triazolam with 250 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+                                    "Kroboth 1995 - Oral administration - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
+                                    "Lilja 2000 - Triazolam with 200 mL water - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
+                                    "O'Connor-Semmes 2001 - Young group, triazolam alone - Triazolam - PO - 0.25 mg - Plasma - agg. (n=18)",
+                                    "Varhe 1994 - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=9)",
+                                    "Varhe 1996a - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=12)",
+                                    "Varhe 1996b - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=10)",
+                                    "Varhe 1996c - Triazolam + placebo - Triazolam - PO - 0.25 mg - Plasma - agg. (n=8)"
+                                ],
                                 "Color": "#1f78b4"
                             },
                             {
                                 "Project": "Triazolam",
                                 "Simulation": "PO_0.5mg",
                                 "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.5mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.5mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.5mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.5mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
-                                "Color": "#1f78b4"
-                            },
-                            {
-                                "Project": "Triazolam",
-                                "Simulation": "PO_0.5mg",
-                                "Output": "Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
+                                "ObservedData": [
+                                    "Friedman 1986 - Figure 1 - Triazolam - PO - 0.5 mg - Plasma - agg. (n=54)",
+                                    "Friedman 1988 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)",
+                                    "Ochs 1984 - Control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=5)",
+                                    "Phillips 1986 - Triazolam alone - Triazolam - PO - 0.5 mg - Plasma - agg. (n=16)",
+                                    "Villikka 1997 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)",
+                                    "Villikka 1998 - Triazolam + placebo - Triazolam - PO - 0.5 mg - Plasma - agg. (n=10)"
+                                ],
                                 "Color": "#1f78b4"
                             }
                         ]
@@ -723,73 +618,73 @@
             "Name": "Triazolam",
             "Project": "Triazolam",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Halcion",
             "Project": "Triazolam",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
-                    "Title": "2.1 Modeling Strategy",
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md"
                 },
                 {
-                    "Id": 22,
-                    "Title": "2.2 Data",
+                    "Reference": "data",
+                    "Title": "Data",
                     "Content": "Content/Section2.2_Data.md"
                 },
                 {
-                    "Id": 23,
-                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
                 }
             ]
         },
         {
-            "Id": 3,
-            "Title": "3 Results and Discussion",
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Sections": [
                 {
-                    "Id": 31,
-                    "Title": "3.1 Final input parameters",
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 32,
-                    "Title": "3.2 Diagnostics Plots",
+                    "Reference": "diagnostics-plots",
+                    "Title": "Diagnostics Plots",
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Id": 33,
-                    "Title": "3.3 Concentration-Time Profiles",
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md"
                 }
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "main-references",
+            "Title": "References",
             "Content": "Content/References.md"
         }
     ],
